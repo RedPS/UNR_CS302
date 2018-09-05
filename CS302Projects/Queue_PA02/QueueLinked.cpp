@@ -1,36 +1,4 @@
-/**
-	@file QueueLinked.cpp
-	
-	@brief  LINKED LIST IMPLEMENTATION of Queues: This program is just an implementation of queues, we were given the main file so we didn't have to 
-  	work on the interface for the user, the only requirement was implementing the .cpp and the some of the storesim file for the given .h 
-  	file and make it work.
-	
-	@author Pedram Safaei
-	
-	@version VERSION 1.0
-	
-	@date 9/12/2017
-	
-	@bug no known bugs
-	
-*/
 
-
-/*
-//There are places that I am using if statement in a silly way for example instead of 
-		
-//		if (IsEmpty())
-// I am using 
-			
-//		if (IsEmpty() == true)
-			
-//This is just an old habit, if it is not acceptable, I will try to change go with the standard practice.
-*/
-
-
-//we'll only include the header file, other neccessary libraries have been included in our .h file
-// Header Files ///////////////////////////////////////////////////
-//
 #include "QueueLinked.h"
 
 
