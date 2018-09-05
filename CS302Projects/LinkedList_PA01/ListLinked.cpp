@@ -1,34 +1,3 @@
-/*
-	Name: Pedram Safaei
-	Date: 9/6/2017
-	Bugs: ....
-	LINKED LIST IMPLEMENTATION
-*/
-
-/*
-//    This program is just an implementation of linked list, we were given the main file so we didn't have to 
-//    work on the interface for the user, the only requirement was implementing the .cpp file for the given .h 
-//    file and make it work.
-*/
-
-/*
-//There are places that I am using if statement in a silly way for example instead of 
-		
-//		if (IsEmpty())
-// I am using 
-			
-//		if (IsEmpty() == true)
-			
-//This is just an old habit, if it is not acceptable, I will try to change go with the standard practice.
-	
-	
-	
-//There are places that I am going to the beginning in other words I'm setting the cursor equal to head, we also have a function for it (gotoBeginning()) but I
-used both the function and the actual implementation in dfferent places just to see how it would affect the functionality (It didn't)
-
-*/
-
-
 #pragma warning( disable : 4290 ) //this is for visual studio... won't effect the program's functionality
 
 #include "ListLinked.h" //no need to include anything else since the required libraries were included in the .h file
